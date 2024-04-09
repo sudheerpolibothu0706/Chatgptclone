@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    background-color:white;
+    display: flex;
+    
+  
+}
+.side-view{
+    
+    
+    
+    background-color: #f4f4f4;
+    padding: 20px;
+    
+    width: 280px;
+    height: 100vh;
+    background-color:whitesmoke;
+    overflow-y: auto;
+}
+.side-top{
+    width: 225px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+  display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 8px;
+}
+.icon,
+.icon2 {
+    display: flex; 
+    align-items: center;
+    margin-right: 10px; 
+    margin-left: 10px;
+}
+
+.side-top:hover{
+    background-color: rgb(232, 228, 222);
+    cursor: pointer;
+}
+.side-headings{
+    margin-top: 25px;
+    margin-left: 10px;
+    color: rgba(120, 117, 112, 0.933);
+}
+.side-topics{
+    width: 230px;
+    height: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 8px;   
+}
+.side-topics > i {
+    display: none;
+}
+.side-topics:hover > i {
+    display: inline-block;
+   
+}
+.side-topics:hover{
+   cursor: pointer;
+    background-color: rgb(232, 228, 222);
+}
+.main-top{
+    
+   height: 45px;
+   width: 135px;
+   margin-top: 12px;
+   margin-left: 10px;
+   border-radius: 8px;
+    padding: 3px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-top:hover{
+    background-color: rgba(161, 158, 153, 0.116);
+    cursor: pointer;
+}
+.main-icon{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 5.4em;
+    margin-left: 6.9em;
+}
+.main-heading{
+    margin-top: 1em;
+    margin-left: 9em;
+   
+}
+.box{
+    display: flex;
+   
+}
+.main-box{
+    width: 19em;
+    height: 4em;
+    margin: 12px;
+    border: 0.7px solid rgb(37, 36, 36 );
+    border-radius: 5px;
+   
+}
+.main-box:hover{
+    background-color: rgba(161, 158, 153, 0.116);
+    cursor: pointer;
+}
+.main-box h4{
+    padding: 5px;
+}
+.main-box p{
+   padding-left: 8px;
+   color: #7b7373;
+}
+.main-text{
+    width: 39.5em;
+    height: 3.5em;
+    margin: 15px;
+    border-radius: 8px;
+    border: 0.7px solid rgb(37, 36, 36 );
+   
+    
+}
+.main-text input{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    padding-left: 6px;
+}
