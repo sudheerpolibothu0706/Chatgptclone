@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sliding Background Color</title>
+<style>
+  .btn {
+    padding: 10px 20px;
+    background: linear-gradient(to right, #e84949 50%, #1e1e1e 50%);
+    background-size: 200% 100%;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-position 0.5s;
+  }
+
+  .btn:hover {
+    background-position: -100% 0;
+  }
+</style>
+</head>
+<body>
+<button class="btn">Hover over me</button>
+</body>
+</html>
